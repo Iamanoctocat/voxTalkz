@@ -1,5 +1,7 @@
+
+<img src="https://raw.githubusercontent.com/DonFlymoor/voxTalkz/master/VoxTalkz%20logo.png" width="200" height="200" />
+
 # voxtalkz
-![VoxTalkz logo](https://raw.githubusercontent.com/DonFlymoor/voxTalkz/master/VoxTalkz%20logo.png)
 
 voxtalkz is an open source python library that aims to provide a service to convert play-like-scripts to semi-relisic audio-dramas.
 
