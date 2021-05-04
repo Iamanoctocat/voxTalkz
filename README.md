@@ -272,5 +272,136 @@ This project is licensed under the GNUv3 License - see the [LICENSE.md](LICENSE)
         "real_cocky_american_man":["en-US-Wavenet-J","en-US"]
         + all normal actors
 
+I have also created a list of all the best actors, their descriptions, different ages, and emotions (Alpha). To make the actor a differnet age, simply put the @ symbol and everything after it in the actor list:
+	
+	```
+	#For a forty year old lady
+	Lady:real_urgent_british_woman@PITCH=-0.2|SPEAKINGRATE=1.3
+	```
+	
+U.N.
+	women:
+		real_urgent_british_woman
+		_Narrator or dramatic british woman_
+			40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+			old-man:@PITCH=-0.35|SPEAKINGRATE=1.4
+			baby:@PITCH=0.5|SPEAKINGRATE=0.5
+			12-year-old:@PITCH=0.15|SPEAKINGRATE=0.8
+			6-year-old:@PITCH=0.3|SPEAKINGRATE=0.6
+			Rating: ⭐⭐⭐⭐
+	men:
+		real_british_man
+		_Secret agent or announcer._
+			40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+			old-man:@PITCH=-0.25|SPEAKINGRATE=1.3
+			baby:@PITCH=0.8|SPEAKINGRATE=0.4
+			12-year-old:@PITCH=0.15|SPEAKINGRATE=0.8
+			6-year-old:@PITCH=0.5|SPEAKINGRATE=0.5
+			Rating: ⭐⭐⭐⭐
+
+U.S.
+	women:
+		real_young_personal_american_woman
+		_Young active collage graduate woman_
+			40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+			old-man:@PITCH=-0.35|SPEAKINGRATE=1.4
+			baby:@PITCH=0.5SPEAKINGRATE=0.5
+			12-year-old:@PITCH=0.15|SPEAKINGRATE=0.8
+			6-year-old:@PITCH=0.3|SPEAKINGRATE=0.6
+			Rating: ⭐⭐⭐⭐
+	
+		real_young_american_woman
+		_Mother_
+			40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+			old-man:@PITCH=-0.35|SPEAKINGRATE=1.4
+			baby:@PITCH=0.5|SPEAKINGRATE=0.5
+			12-year-old:@PITCH=0.15|SPEAKINGRATE=0.8
+			6-year-old:@PITCH=0.4|SPEAKINGRATE=0.5
+			Rating: ⭐⭐⭐⭐
+
+		real_distracted_middleage_american_woman
+		_Mom_
+			40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+			old-man:@PITCH=-0.35|SPEAKINGRATE=1.4
+			baby:@PITCH=0.5SPEAKINGRATE=0.5
+			12-year-old:@PITCH=0.15|SPEAKINGRATE=0.8
+			6-year-old:@PITCH=0.4|SPEAKINGRATE=0.5
+			Rating: ⭐⭐⭐
+
+	men:
+		real_young_american_man
+		_Annoying young man_
+			40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+			old-man:@PITCH=-0.35|SPEAKINGRATE=1.4
+			baby:@PITCH=0.6SPEAKINGRATE=0.5
+			12-year-old:@PITCH=0.15|SPEAKINGRATE=0.8
+			6-year-old:@PITCH=0.35|SPEAKINGRATE=0.6
+			Rating: ⭐⭐⭐
+
+
+
+		real_middleage_personal_american_man
+		_Middle aged man_
+			40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+			old-man:@PITCH=-0.25|SPEAKINGRATE=1.3
+			baby:@PITCH=0.8|SPEAKINGRATE=0.4
+			12-year-old:@PITCH=0.15|SPEAKINGRATE=0.8
+			6-year-old:@PITCH=0.5|SPEAKINGRATE=0.5
+			Rating: ⭐⭐⭐⭐
+
+		real_young_personal_american_man
+		_Young active collage graduate man_
+			40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+			old-man:@PITCH=-0.35|SPEAKINGRATE=1.4
+			baby:@PITCH=0.6SPEAKINGRATE=0.5
+			12-year-old:@PITCH=0.15|SPEAKINGRATE=0.8
+			6-year-old:@PITCH=0.35|SPEAKINGRATE=0.6
+			Rating: ⭐⭐⭐⭐⭐
+
+		real_cocky_american_man
+		Father
+			40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+			old-man:@PITCH=-0.25|SPEAKINGRATE=1.3
+			baby:@PITCH=0.7SPEAKINGRATE=0.5
+			12-year-old:@PITCH=0.15|SPEAKINGRATE=0.8
+			6-year-old:@PITCH=0.5|SPEAKINGRATE=0.5
+			Rating: ⭐⭐⭐⭐
+
+India
+		women:
+			Indian_Woman:real_indian_woman
+			_Young Indian collage woman_
+				40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+				old-man:@PITCH=-0.35|SPEAKINGRATE=1.4
+				baby:@PITCH=0.4|SPEAKINGRATE=0.6
+				12-year-old:@PITCH=0.1|SPEAKINGRATE=0.8
+				6-year-old:@PITCH=0.3|SPEAKINGRATE=0.6
+				Salary:$50 an hour
+		men:
+			Indian_Man:real_personal_indian_woman
+			Young Indian collage man
+				40-year-old:@PITCH=-0.2|SPEAKINGRATE=1.3
+				old-man:@PITCH=-0.35|SPEAKINGRATE=1.4
+				baby:@PITCH=0.8|SPEAKINGRATE=0.4
+				12-year-old:@PITCH=0.13|SPEAKINGRATE=0.8
+				6-year-old:@PITCH=0.45|SPEAKINGRATE=0.5
+				Salary:$45 an hour
+Emotions (Alpha)
+		Angry:
+		[__Text goes here__] @PITCH=-0.05|SPEAKINGRATE=0.7|VOLUME=5
+		Sad:
+		[*Text goes here*] @PITCH=0.03|SPEAKINGRATE=0.6|VOLUME=-6
+		Hurt:
+		[Text goes here] @PITCH=0.03|SPEAKINGRATE=0.7|VOLUME=-4
+		Fearful:
+		[__Text goes here__] @PITCH=0.07|SPEAKINGRATE=1.1|VOLUME=6
+		Terrified:
+		[__Text goes here__] @PITCH=0.07|SPEAKINGRATE=1.2|VOLUME=8
+		Doubtful:
+		[*Text goes here?*] @PITCH=-0.02|SPEAKINGRATE=0.8
+		Disgusted:
+		[Text goes here] @PITCH=0.03|SPEAKINGRATE=0.7
+
+
 	Sound effects must be in the .mp3 or .wav format and placed in /home/user/.voxtalk/soundEffects
-	To use footsteps.mp3 as a sound effect: put '*footsteps' in your script
+	To use footsteps.mp3 as a sound effect: put '*footsteps*' in your script
